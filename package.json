@@ -1,0 +1,51 @@
+{
+  "name": "dam-allyourbase",
+  "version": "1.0.0",
+  "private": true,
+  "main": "index.js",
+  "gulp": {
+    "src": {
+      "js": "Content/js/custom/",
+      "jsVendors": "Content/js/vendors/",
+      "scss": "Content/scss/",
+      "images": "Content/images/",
+      "html": "Flat/",
+      "dist": "Dist/"
+    },
+    "selectors": {
+      "all": "*",
+      "js": "**/*.js",
+      "css": "**/*.css",
+      "scss": "**/*.scss",
+      "html": "**/*.html",
+      "images": "**/*.{png,jpg,jpeg,gif,ico,svg}",
+      "fonts": "**/*.{eot,svg,ttf,woff,woff2}"
+    },
+    "main": {
+      "server": "index.js"
+    }
+  },
+  "dependencies": {
+    "express": "4.16.2"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "browser-sync": "^2.23.5",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-babel": "^7.0.0",
+    "gulp-bundle-assets": "^2.29.0",
+    "gulp-clean-css": "^3.9.0",
+    "gulp-nodemon": "^2.2.1",
+    "gulp-purge-sourcemaps": "^1.0.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "^2.6.1",
+    "gulp-strip-comments": "^2.5.1",
+    "gulp-util": "^3.0.8",
+    "lazypipe": "^1.0.1",
+    "require-dir": "^0.3.1",
+    "onchange": "^3.3.0"
+  }
+}

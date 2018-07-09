@@ -1,0 +1,13 @@
+/*//variables
+@import "variables/";
+
+//vendors
+@import "vendors/";
+
+//layouts
+@import "layouts/";*/
+body {
+  background: red;
+}
+
+/*# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNjcmVlbi5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBOzs7Ozs7O3FCQU9xQjtBQUVyQjtFQUNJLGdCQUFjO0NBQ2pCIiwiZmlsZSI6InNjcmVlbi5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIvKi8vdmFyaWFibGVzXHJcbkBpbXBvcnQgXCJ2YXJpYWJsZXMvXCI7XHJcblxyXG4vL3ZlbmRvcnNcclxuQGltcG9ydCBcInZlbmRvcnMvXCI7XHJcblxyXG4vL2xheW91dHNcclxuQGltcG9ydCBcImxheW91dHMvXCI7Ki9cclxuXHJcbmJvZHl7XHJcbiAgICBiYWNrZ3JvdW5kOnJlZDtcclxufSJdfQ== */
