@@ -66,6 +66,7 @@ $primary: #0c2e5d !default;
 $secondary: #f7006e !default;
 $tertiary: #8a8c8e !default;
 $quaternary: #70dbcb !default;
+$button: $blue !default;
 $success:       $green !default;
 $info:          $cyan !default;
 $warning:       $yellow !default;
@@ -79,7 +80,8 @@ $theme-colors: map-merge((
   "secondary":  $secondary,
     "tertiary":$tertiary,
     "quaternary": $quaternary,
-  "success":    $success,
+    "button": $button,
+  "success":    $button,
   "info":       $info,
   "warning":    $warning,
   "danger":     $danger,
