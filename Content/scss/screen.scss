@@ -1,12 +1,13 @@
-/*//variables
-@import "variables/";
+//variables
+@import "variables/variables";
 
 //vendors
-@import "vendors/";
+@import "vendors/bootstrap/bootstrap";
+@import "vendors/bootstrap/bootstrap-grid";
+@import "vendors/bootstrap/bootstrap-reboot";
+@import "vendors/family";
 
 //layouts
-@import "layouts/";*/
+@import "layout/demo";
 
-body{
-    background:red;
-}
+

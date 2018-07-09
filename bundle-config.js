@@ -6,7 +6,7 @@ module.exports = {
     bundle: {
         scriptsBundleMain: {
             scripts: [
-                './Content/js/customs/demo.js'
+                './Content/js/custom/demo.js'
             ],
             options: {
                 rev: false, // {(boolean|string|Array)}
@@ -17,16 +17,16 @@ module.exports = {
                 }
             }
         },
-    //    scriptsBundleSecondary: {
-    //        scripts: [
-    //            './Content/js/vendors/jquery-3.1.1.min.js',
-    //            './Content/js/vendors/popper.js',
-    //            './Content/js/vendors/bootstrap.js',
-    //            './Content/js/vendors/owl.carousel.js',
-    //        ],
-    //        options: {
-    //            rev: false // {(boolean|string|Array)}
-    //        }
-    //    },
+        scriptsBundleSecondary: {
+            scripts: [
+                './Content/js/vendors/jquery-3.2.1.min.js',
+               // './Content/js/vendors/popper.js',
+                './Content/js/vendors/bootstrap.js',
+               // './Content/js/vendors/owl.carousel.js',
+            ],
+            options: {
+                rev: false // {(boolean|string|Array)}
+            }
+        },
     },
 };

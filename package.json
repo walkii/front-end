@@ -47,5 +47,9 @@
     "lazypipe": "^1.0.1",
     "require-dir": "^0.3.1",
     "onchange": "^3.3.0"
+  },
+  "scripts": {
+    "startBrowserSync": "browser-sync start --server --files '**/*.css, **/*.html, **/*.js, !node_modules/**/*' --directory --port 7777 --browser \"C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe\"",
+    "gulp": "gulp"
   }
 }
