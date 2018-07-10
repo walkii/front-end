@@ -20,7 +20,7 @@ module.exports = {
         scriptsBundleSecondary: {
             scripts: [
                 './Content/js/vendors/jquery-3.2.1.min.js',
-               // './Content/js/vendors/popper.js',
+                './Content/js/vendors/bootstrap.min.js',
                 './Content/js/vendors/bootstrap.js',
                // './Content/js/vendors/owl.carousel.js',
             ],

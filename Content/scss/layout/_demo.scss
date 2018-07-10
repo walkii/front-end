@@ -1,0 +1,58 @@
+body {
+    background-color: $quaternary;
+}
+
+.nav-link {
+    color: $white;
+}
+
+h3 {
+    color: $purple;
+}
+
+h2 {
+    color: $primary;
+}
+
+figcaption {
+    color: $tertiary;
+}
+
+#register {
+    background-color: $primary;
+    padding: 60px;
+  
+}
+
+footer {
+    background-color: $white;
+    padding-top:60px;
+    padding-bottom: 60px;
+    padding-left:0px;
+    padding-right:0px;
+}
+
+.zeroMargin {
+    margin-bottom: 0px;
+}
+
+.btn {
+    border-radius: 0px;
+    padding-right: 24px;
+    padding-left: 24px;
+}
+
+#register {
+    input[type="text"] {
+        border-color: $white;
+        background-color: $primary;
+        border-radius: 0px;
+    }
+
+    input[type="email"] {
+        border-color: $white;
+        background-color: $primary;
+        border-radius: 0px;
+    }
+}
+
