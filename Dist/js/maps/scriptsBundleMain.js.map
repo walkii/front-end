@@ -1,1 +1,1 @@
-{"version":3,"sources":["Content/js/custom/demo.js"],"names":["console","log"],"mappings":"AAAA,YAAAA,SAAQC,IAAI,SACZD,QAAQC,IAAI,QAEZD,QAAQC,IAAI,SACZD,QAAQC,IAAI","file":"scriptsBundleMain.js","sourcesContent":["console.log('hello');\r\nconsole.log('heya');\r\n\r\nconsole.log('hello');\r\nconsole.log('heya');"],"sourceRoot":"/source/"}
+{"version":3,"sources":["Content/js/custom/demo.js"],"names":["console","log"],"mappings":"AAAA,YAAAA,SAAQC,IAAI","file":"scriptsBundleMain.js","sourcesContent":["console.log('hello');"],"sourceRoot":"/source/"}

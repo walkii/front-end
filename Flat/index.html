@@ -10,10 +10,40 @@
     <script src="../Dist/js/scriptsBundleMain.js"></script>
 </head>
 <body>
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="d-block w-100" src="..." alt="First slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="..." alt="Second slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="..." alt="Third slide">
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
     <header class="container">
-        <div class="d-flex flex-row-reverse">
-            <img class="col-sm-1" src="content/images/linkedin_blanc.svg" alt="logo linkedin">
-            <img class="col-sm-1" src="content/images/twitter_blanc.svg" alt="logo twitter">
+        <div class="d-flex justify-content-end">
+            <a href="#">
+                <img class="img-fluid" src="content/images/linkedin_blanc.svg" alt="logo linkedin">
+            </a>
+            <a href="#">
+                <img class="img-fluid" src="content/images/twitter_blanc.svg" alt="logo twitter">
+            </a>
         </div>
         <div class="d-flex flex-row justify-content-between">
             <h2 class="text-white"><b>iCustomer</b></h2>
@@ -207,23 +237,25 @@
         </section>
     </main>
 
-    <footer class="container">
-        <div class="row">
-            <div class="col-sm-6">
-                <ul class="list-group">
-                    <li class="list-group"><a href="#">Privacy & Policy</a></li>
-                    <li class="list-group"><a href="#">Therms & Conditions</a></li>
-                    <li class="list-group"><a href="#">Lorem Ipsum</a></li>
-                    <li class="list-group"><a href="#">Lorem Ipsum</a></li>
-                </ul>
+    <footer class="page-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <ul class="list-group">
+                        <li class="list-group"><a href="#">Privacy & Policy</a></li>
+                        <li class="list-group"><a href="#">Therms & Conditions</a></li>
+                        <li class="list-group"><a href="#">Lorem Ipsum</a></li>
+                        <li class="list-group"><a href="#">Lorem Ipsum</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-6 d-sm-flex">
+                    <img src="content/images/twitter_noir.svg" alt="logo twitter">
+                    <img src="content/images/linkedin_noir.svg" alt="logo linkedin">
+                </div>
             </div>
-            <div class="col-sm-6 d-sm-flex">
-                <img src="content/images/twitter_noir.svg" alt="logo twitter">
-                <img src="content/images/linkedin_noir.svg" alt="logo linkedin">
-            </div>
+            <hr />
+            <p class="zeroMargin">iCostomer (company number), 20 Irving Street, London WC2H 7AU</p>
         </div>
-        <hr />
-        <p class="zeroMargin">iCostomer (company number), 20 Irving Street, London WC2H 7AU</p>
     </footer>
 </body>
 </html>
