@@ -5,6 +5,9 @@ body {
 .nav-link {
     color: $white;
 }
+li {
+    list-style-type: none;
+}
 
 h3 {
     color: $purple;
@@ -21,6 +24,11 @@ h2 {
 
 figcaption {
     color: $tertiary;
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    letter-spacing: 1px;
+    word-spacing: 1px;
 }
 
 #register {
@@ -62,7 +70,7 @@ figcaption {
 
 .logo {
     max-width: 50px;
-    padding:8px;
+    padding: 8px;
 }
 
 
@@ -85,10 +93,11 @@ h1 {
     padding-left: 100px;
     padding-right: 8px;
 }
-.nav{
-    width:100%;
-    display:flex;
-    justify-content:space-between;
+
+.nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
 }
 
 .text1 {
@@ -97,6 +106,7 @@ h1 {
     padding-right: 30px;
     letter-spacing: 2px;
     word-spacing: 5px;
+    margin-bottom: 100px;
 }
 
 .text2 {
@@ -106,6 +116,117 @@ h1 {
     letter-spacing: 2px;
     word-spacing: 5px;
 }
-section{
+
+section {
+    margin-top: 50px;
+}
+
+.text3 {
+    max-width: 700px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    margin-bottom: 50px;
+}
+
+.img {
+    max-width: 150px;
+    max-height: 250px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+figure {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.text4 {
+    margin-bottom: 50px;
+    margin-top: 50px;
+    font-size: 20px;
+    font-weight: 600;
+    max-width: 550px;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    /*color: $quaternary;*/
+    color: $white;
+}
+
+.text5 {
+    font-size: 20px;
+    font-weight: 600;
+    max-width: 550px;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    /*color: $cinq;*/
+    color: $white;
+}
+
+.carousel-inner {
+    margin-top: 50px;
+    box-shadow: -5px -5px 20px $gray-600;
+}
+
+.block {
+    width: 500px;
+    height: 350px;
+    background-color: $white;
+}
+
+.block1 {
+    width: 80%;
+}
+
+.textCarousel {
+    font-size: 25px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    color: $gray-500;
+    padding-bottom: 20px;
+    padding-left:15px;
+    border-bottom: 1px solid $gray-500;
+}
+
+.autor {
+    font-size: 14px;
+    font-weight: 600;
+    color: $gray-600;
+}
+
+.carousel-indicators {
+    li {
+        background-color: $quaternary;
+        width: 10px;
+        height: 10px;
+        border-radius: 20px;
+    }
+
+    .active {
+        background-color: black;
+    }
+}
+
+.quotteBottom{
+    padding-left:0px;
+    padding-bottom:30px;
+    
+}
+
+.text6 {
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    max-width:550px;
+}
+.block3{
     margin-top:50px;
+}
+.block4{
+    margin-top:50px;
+}
+.block5 {
+    max-width: 300px;
 }
