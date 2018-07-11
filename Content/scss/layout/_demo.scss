@@ -12,6 +12,11 @@ h3 {
 
 h2 {
     color: $primary;
+    font-weight: 100;
+    letter-spacing: 2px;
+    word-spacing: 3px;
+    font-size: 50px;
+    margin-bottom: 30px;
 }
 
 figcaption {
@@ -55,3 +60,52 @@ figcaption {
     }
 }
 
+.logo {
+    max-width: 50px;
+    padding:8px;
+}
+
+
+h1 {
+    padding-top: 20px;
+    font-weight: 100;
+    letter-spacing: 5px;
+    word-spacing: 5px;
+    color: $white;
+    margin-bottom: 35px;
+    font-size: 50px;
+
+    b {
+        font-weight: 900;
+    }
+}
+
+.navbar {
+    width: 100%;
+    padding-left: 100px;
+    padding-right: 8px;
+}
+.nav{
+    width:100%;
+    display:flex;
+    justify-content:space-between;
+}
+
+.text1 {
+    font-size: 25px;
+    font-weight: 500;
+    padding-right: 30px;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+}
+
+.text2 {
+    font-size: 30px;
+    font-weight: 600;
+    max-width: 400px;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+}
+section{
+    margin-top:50px;
+}
