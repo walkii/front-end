@@ -52,19 +52,27 @@ figcaption {
     border-radius: 0px;
     padding-right: 24px;
     padding-left: 24px;
+    padding-bottom:12px;
+    padding-top:12px;
 }
 
 #register {
     input[type="text"] {
         border-color: $white;
         background-color: $primary;
+        color: $white;
         border-radius: 0px;
+        padding-bottom: 12px;
+        padding-top: 12px;
     }
 
     input[type="email"] {
         border-color: $white;
         background-color: $primary;
+        color: $white;
         border-radius: 0px;
+        padding-bottom: 12px;
+        padding-top: 12px;
     }
 }
 
@@ -229,4 +237,7 @@ figure {
 }
 .block5 {
     max-width: 300px;
+}
+.block6{
+    margin-bottom:70px;
 }
