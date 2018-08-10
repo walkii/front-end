@@ -1,0 +1,192 @@
+﻿.color {
+    animation-name: annim;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+/* Standard syntax */
+@keyframes annim {
+ 0% {background-color:   rgba(255, 0, 0, 0.3);}
+4% {background-color: 	rgba(255, 64, 0, 0.3);}
+8% {background-color: 	rgba(255, 128, 0, 0.3);}
+12% {background-color:  rgba(255, 191, 0, 0.3)}
+16% {background-color:  rgba(255, 255, 0, 0.3);}
+20% {background-color: 	rgba(191, 255, 0, 0.3);}
+24% {background-color: 	rgba(128, 255, 0, 0.3);}
+28% {background-color:  rgba(64, 255, 0, 0.3);}
+32% {background-color: 	rgba(0, 255, 0, 0.3);}
+36% {background-color: 	rgba(0, 255, 64, 0.3);}
+40% {background-color: 	rgba(0, 255, 128, 0.3);}
+44% {background-color: 	rgba(0, 255, 191, 0.3);}
+48% {background-color:  rgba(0, 255, 255, 0.3);}
+52% {background-color: 	rgba(0, 191, 255, 0.3);}
+56% {background-color: 	rgba(0, 128, 255, 0.3);}
+60% {background-color: 	rgba(0, 64, 255, 0.3);}
+64% {background-color:	rgba(0, 0, 255, 0.3);}
+68% {background-color: 	rgba(64, 0, 255, 0.3);}
+72% {background-color: 	rgba(128, 0, 255, 0.3);}
+76% {background-color: 	rgba(191, 0, 255, 0.3);}
+80% {background-color: 	rgba(255, 0, 255, 0.3);}
+84% {background-color: 	rgba(255, 0, 191, 0.3);}
+88% {background-color: 	rgba(255, 0, 128, 0.3);}
+92% {background-color: 	rgba(255, 0, 64, 0.3);}
+96% {background-color: 	rgba(255, 0, 0, 0.3);}
+100% {background-color: rgba(255, 0, 0, 0.3);}
+}
+
+.center {
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+}
+
+body {
+    background-color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+}
+
+.sidebar-right {
+    height: 100vh;
+    width: 100vw;
+    padding: 2rem;
+    overflow-x: hidden;
+    overflow-y: auto;
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 20;
+    transform: translate3d(100%, 0, 0);
+    transition: transform 0.4s ease-in-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+    .sidebar-right.is-open {
+        transform: translate3d(0, 0, 0);
+    }
+
+    .sidebar-right .sidebar-content {
+        min-width: 300px;
+        max-width: 600px;
+    }
+
+.sidebar-left {
+    height: 100vh;
+    width: 100vw;
+    padding: 2rem;
+    overflow-x: hidden;
+    overflow-y: auto;
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 20;
+    transform: translate3d(100%, 0, 0);
+    transition: transform 0.4s ease-in-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+    .sidebar-left.is-open {
+        transform: translate3d(0, 0, 0);
+    }
+
+    .sidebar-left .sidebar-content {
+        min-width: 300px;
+        max-width: 600px;
+
+    }
+
+/* Style the tab */
+.tab {
+    float: left;
+    /*border: 1px solid #ccc;*/
+    border-bottom: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    background-color: #f1f1f1;
+    width: 30%;
+    height: 300px;
+}
+
+    /* Style the buttons that are used to open the tab content */
+    .tab button {
+        display: block;
+        background-color: inherit;
+        color: black;
+        padding: 22px 16px;
+        width: 100%;
+        border: none;
+        outline: none;
+        text-align: left;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+
+        /* Change background color of buttons on hover */
+        .tab button:hover {
+            background-color: #ddd;
+        }
+
+        /* Create an active/current "tab button" class */
+        .tab button.active {
+            background-color: white;
+        }
+
+/* Style the tab content */
+.tabcontent {
+    float: left;
+    padding: 0px 12px;
+    border: 1px solid #ccc;
+    width: 70%;
+    border-left: none;
+    height: 300px;
+}
+
+#timer {
+    text-align: center;
+    color: blue;
+}
+
+.container {
+    position: relative;
+}
+
+/* Bottom right text */
+.text-block {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 1px solid blue;
+}
+
+img{
+    max-height:300px;
+}
+
+.loader {
+    border: 16px solid #f3f3f3; /* Light grey */
+    border-top: 16px solid #3498db; /* Blue */
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
